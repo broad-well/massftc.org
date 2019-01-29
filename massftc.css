@@ -48,13 +48,14 @@ footer nav a {
 
 .hero {
     width: 100%;
-    padding: 5vw;
+    padding: 100px 50px;
     box-sizing: border-box;
     color: white;
 }
 
 .hero h1, .hero h2, .hero h3 {
     margin-bottom: 5px;
+    margin-top: 0;
 }
 
 .buttonset {
@@ -182,5 +183,8 @@ footer nav a {
     }
     .state-card .date {
         margin: 0 0;
+    }
+    .hero {
+        padding: 5vw;
     }
 }
